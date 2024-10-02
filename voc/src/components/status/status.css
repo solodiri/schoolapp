@@ -1,0 +1,58 @@
+.status {
+  position: fixed;
+  width: 200px;
+  margin-top: 63px;
+  top: 0;
+  right: 0;
+  z-index: 200;
+}
+
+.status-Wrapper {
+  margin-top: 100px;
+  margin: 10px auto;
+  width: 95%;
+  text-align: center;
+  border-radius: 10px;
+  height: auto;
+}
+.status-Title {
+  padding: 10px;
+  background-color: rgb(77, 69, 189);
+  color: aliceblue;
+}
+
+.status-close {
+  position: absolute;
+  font-size: 20px;
+  text-align: end;
+  cursor: pointer;
+  top: 20px;
+  right: 20px;
+}
+.status-close:hover {
+  color: goldenrod;
+}
+.status-Group {
+  border-radius: 10px;
+  background-color: rgb(62, 42, 175);
+  /* background-color: rgb(7, 3, 27); */
+  color: aliceblue;
+}
+.status-list {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(62, 42, 175);
+  font-weight: 900;
+  padding: 10px;
+  gap: 20px;
+}
+
+.status-list:hover,
+.logo:hover,
+.profile:hover,
+.login-btn:hover,
+.search-btn:hover,
+.favarity:hover {
+  color: goldenrod;
+  cursor: pointer;
+}

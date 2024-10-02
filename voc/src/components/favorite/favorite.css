@@ -1,0 +1,91 @@
+.favorite{
+    position: fixed;
+    width: 100%;
+    margin: auto;
+    background-color: rgba(29, 28, 31, 0.9);
+    margin-top: 120px;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    z-index: 200;
+}
+
+.favorite-Wrapper{
+    margin-top: 150px;
+    background-color: aliceblue;
+    margin: 10px auto;
+    width:95%;
+    text-align: center;
+    border-radius: 10px;
+    max-height: 500px;
+    overflow-y:scroll ;   
+}
+.favorite-Title{
+    text-align: center;
+    padding: 10px;
+    background-color: rgb(77, 69, 189);
+    color: aliceblue;
+    border-radius: 10px 10px 0 0 ;
+    text-align: center;
+    position: fixed;
+    top: 73px;
+    right: 0;
+    width: 100%;
+    margin:0 auto;
+}
+
+
+.favorite-close{
+  position: absolute;
+  font-size: 20px;
+  text-align: end;
+  cursor: pointer;
+  top:  10px;
+  right: 30px;
+}
+.favorite-close:hover{
+   color: goldenrod;
+}
+.favorite-Group{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    padding: 10px;
+    gap: 20px;
+
+}
+.favoriteUI{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    padding: 10px;
+    gap: 20px;
+    list-style: none;
+    font-weight: 900;
+    font-size: 15px;
+}
+.favorite-img{ 
+    width: 80px;
+    height: 80px;
+    border-radius: 10px;
+ } 
+.home-description{ 
+    width: 300px;
+    height: 100px;
+ } 
+
+
+
+.favorite-remove{ 
+   cursor: pointer;
+   padding: 10px;
+   background-color: rgb(5, 5, 90);
+   color: white;
+   border: none;
+   border-radius: 5px;
+ } 
+.favorite-remove:hover{ 
+    background-color: rgb(59, 65, 145);
+    color: goldenrod;
+ } 

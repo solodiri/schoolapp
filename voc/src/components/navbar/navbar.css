@@ -1,0 +1,148 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.nav {
+  padding: 20px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(23, 25, 146);
+  color: white;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 100;
+  /* display: none; */
+}
+.search {
+  display: flex;
+}
+
+.search-input {
+  /* width: 300px; */
+  width: auto;
+  padding: 5px 20px;
+  border-radius: 10px 0 0 10px;
+  font-size: 15px;
+  border: none;
+}
+.search-btn {
+  padding: 5px 20px;
+  border-radius: 0 10px 10px 0;
+  border: none;
+  cursor: pointer;
+}
+
+.menu {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+}
+.menu-list:hover,
+.logo:hover,
+.profile:hover,
+.login-btn:hover,
+.search-btn:hover,
+.favarite:hover {
+  color: goldenrod;
+  cursor: pointer;
+}
+
+.search-btn:hover {
+  background-color: goldenrod;
+  color: white;
+}
+.profile {
+  font-size: 25px;
+  background-color: aliceblue;
+  border-radius: 50%;
+}
+
+.favarite-counter {
+  position: relative;
+}
+.favarite {
+  position: relative;
+  font-size: 25px;
+  /* background-color: aliceblue; */
+  border-radius: 50%;
+}
+.counter {
+  position: absolute;
+  top: -10px;
+  right: -15px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(247, 12, 71);
+  border-radius: 50%;
+  padding: 3px;
+  font-size: 15px;
+  width: 23px;
+  height: 23px;
+}
+.login-btn {
+  padding: 5px;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+}
+.menu-Toggle {
+  font-size: 30px;
+  padding: 5px;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+}
+.denger {
+  position: absolute;
+  position: fixed;
+  top: 70px;
+  right: 10px;
+  padding: 5px 10px;
+  background-color: rgb(247, 12, 71);
+  border-radius: 10px;
+  color: aliceblue;
+  font-size: 15px;
+  z-index: 100;
+}
+.blue {
+  position: absolute;
+  position: fixed;
+  top: 70px;
+  right: 10px;
+  padding: 5px 10px;
+  background-color: rgb(6, 59, 204);
+  border-radius: 10px;
+  color: aliceblue;
+  font-size: 15px;
+}
+.menu-Toggle {
+  display: none;
+}
+/* .times{
+    position: absolute;
+    top: 80px;
+    z-index: 200;
+    color: black;
+
+} */
+
+@media (max-width: 1000px) {
+  .menu {
+    display: none;
+  }
+  .menu-Toggle {
+    display: block;
+  }
+}
+@media (max-width: 600px) {
+  .search {
+    display: none;
+  }
+}

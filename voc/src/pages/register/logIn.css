@@ -1,0 +1,76 @@
+.logIn-Model{
+    position: fixed;
+    width: 100%;
+    margin: auto;
+    background-color: rgba(29, 28, 31, 0.9);
+    margin-top: 70px;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+.logIn-Wrapper{
+    background-color: aliceblue;
+    margin: 100px auto;
+    width: 400px;
+    text-align: center;
+    border-radius: 10px;
+    
+}
+.logIn-Title{
+    padding: 10px;
+    background-color: rgb(77, 69, 189);
+    color: aliceblue;
+    border-radius: 10px 10px 0 0 ;
+
+}
+.input-Group{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    padding: 10px;
+    gap: 20px;
+
+}
+
+.input-Text{
+    font-size: 17px;
+    border: none;
+    background-color: rgb(208, 212, 211);
+    padding: 10px;
+    border-radius: 10px;
+
+}
+
+.input-btn{
+    background-color: rgb(44, 27, 121);
+    font-weight: 800;
+    color: aliceblue;
+    cursor: pointer;
+
+}
+
+.input-btn:hover{
+    background-color: rgb(7, 2, 36);
+    font-weight: 800;
+    color: aliceblue;
+    cursor: pointer;
+
+}
+.strong-btn{
+    background-color: blueviolet;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.strong-btn:hover{
+    background-color: rgb(7, 2, 36);
+    font-weight: 800;
+    color: aliceblue;
+    cursor: pointer;
+    /* margin-bottom: 20px; */
+
+}

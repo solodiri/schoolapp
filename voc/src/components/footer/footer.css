@@ -1,0 +1,83 @@
+.footer-Back {
+  background-color: rgb(15, 15, 124);
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: auto;
+  background-color: rgb(15, 15, 124);
+  color: aliceblue;
+  padding: 50px;
+}
+
+.footerNote {
+  margin: 10px;
+}
+
+.footer-logo {
+  margin-bottom: 30px;
+  color: aliceblue;
+  margin: 50px;
+  padding-top: 30px;
+}
+.footer h5 {
+  color: chocolate;
+}
+.conditions {
+  color: aliceblue;
+  width: 100%;
+  text-align: center;
+  cursor: pointer;
+}
+
+.terms:hover,
+.privacy:hover {
+  color: goldenrod;
+  text-decoration: underline;
+}
+.footlist {
+  margin: 5px;
+  padding: 5px;
+}
+.footlist:hover {
+  text-decoration: underline;
+  /* border: 1px solid rgb(247, 243, 243); */
+}
+/* .footlist::after {
+  content: "";
+  height: 10px;
+  position: absolute;
+  padding-bottom: 10px;
+  transform: rotate(180deg);
+
+  border: 1px solid rgb(247, 243, 243);
+} */
+.copy-right {
+  text-align: center;
+  background-color: rgb(23, 25, 146);
+  padding: 10px;
+  color: aliceblue;
+  font-size: 16px;
+}
+
+@media (max-width: 1000px) {
+  .footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+@media (max-width: 800px) {
+  .footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media (max-width: 800px) {
+  .footer {
+    display: grid;
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+}
